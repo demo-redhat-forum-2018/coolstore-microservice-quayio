@@ -826,7 +826,7 @@ objects:
       component: cart
     name: cart
   spec:
-    host: cart-coolstore.apps.demo.openshift.fr
+    host: 
     to:
       kind: Service
       name: cart
@@ -838,7 +838,7 @@ objects:
       - lastTransitionTime: 2018-04-25T19:59:56Z
         status: "True"
         type: Admitted
-      host: cart-coolstore.apps.demo.openshift.fr
+      host: 
       routerName: router
       wildcardPolicy: None
 - apiVersion: v1
@@ -852,7 +852,7 @@ objects:
       component: catalog
     name: catalog
   spec:
-    host: catalog-coolstore.apps.demo.openshift.fr
+    host: 
     to:
       kind: Service
       name: catalog
@@ -864,7 +864,7 @@ objects:
       - lastTransitionTime: 2018-04-25T19:59:56Z
         status: "True"
         type: Admitted
-      host: catalog-coolstore.apps.demo.openshift.fr
+      host: 
       routerName: router
       wildcardPolicy: None
 - apiVersion: v1
@@ -878,7 +878,7 @@ objects:
       component: coolstore-gw
     name: gw
   spec:
-    host: gw-coolstore.apps.demo.openshift.fr
+    host: 
     to:
       kind: Service
       name: gw
@@ -890,7 +890,7 @@ objects:
       - lastTransitionTime: 2018-04-25T19:59:56Z
         status: "True"
         type: Admitted
-      host: gw-coolstore.apps.demo.openshift.fr
+      host: 
       routerName: router
       wildcardPolicy: None
 - apiVersion: v1
@@ -904,7 +904,7 @@ objects:
       component: inventory
     name: inventory
   spec:
-    host: inventory-coolstore.apps.demo.openshift.fr
+    host: 
     to:
       kind: Service
       name: inventory
@@ -916,7 +916,7 @@ objects:
       - lastTransitionTime: 2018-04-25T19:59:56Z
         status: "True"
         type: Admitted
-      host: inventory-coolstore.apps.demo.openshift.fr
+      host: 
       routerName: router
       wildcardPolicy: None
 - apiVersion: v1
@@ -930,7 +930,7 @@ objects:
       component: web-ui
     name: web-ui
   spec:
-    host: web-ui-coolstore.apps.demo.openshift.fr
+    host: 
     to:
       kind: Service
       name: web-ui
@@ -942,6 +942,6 @@ objects:
       - lastTransitionTime: 2018-04-25T19:59:56Z
         status: "True"
         type: Admitted
-      host: web-ui-coolstore.apps.demo.openshift.fr
+      host: 
       routerName: router
       wildcardPolicy: None
